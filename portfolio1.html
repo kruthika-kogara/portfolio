@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
+        body{
+            background-position: fixed;
+            background:rgb(21, 21, 21);
+            z-index: 1;
+            margin-top: 50px;
+        }
+        .nav1{
+            border-bottom: 1px solid white;
+            display: flex;
+            height: 45px;
+            width: 100%;
+            align-items: center;
+            justify-content:end;
+            position: fixed;
+            top: 0;
+        }
+        .nav1 a{
+            text-decoration: none;
+            color:white;
+            font-size: 20px;
+            padding: 0px 30px;
+        }
+        .nav1 a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        div{
+            margin-top: 16px;
+            width: 100%; 
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        div a{
+            color: white;
+            font-size: 20px;
+            padding: 0px 30px; 
+        }
+        div a:hover{
+            color: red;
+        }
+        #col{
+            padding-top: 30px;
+            padding-left: 70px;
+            display:flex;
+            flex-wrap: nowrap;
+        }
+        #col .col1 .row1 ul{
+            margin-left: 20px; 
+            width: 600px;
+            height: 450px;
+            padding-right: 300px;
+        }
+        #col .col1 .row1 ul li{
+            width: 800px;
+            height: 28px;
+            list-style: none;
+            padding: 15px 10px;
+            margin: 15px;
+        }
+        #col .col1 .row1 ul li h3{
+            font-family:"Italiana", sans-serif;
+            color: red;
+            font-size: 25px;
+        }
+        #col .col1 .row1 ul li h1{
+            font-family: "Italiana", sans-serif;
+            color: rgb(255, 255, 255);
+            font-size: 34px;
+            text-shadow: 0px 1px 4px;
+        }
+        #col .col1 .row1 ul li h2{
+            font-family:"Italiana", sans-serif;
+            color: red;
+        }
+        #col .col1 .row1 ul #p1{
+            border: 1px solid rgb(252, 248, 248,0.3);
+            height: 150px;
+            width: 630px;
+            font-size: 13px;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            line-height: 25px;
+            
+        }
+        #col .col2 img{
+            width: 300px;
+            height: 450px;
+            padding-right: 200px;
+            padding-top: 12px; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav1">
+        <a href="./portfolio1.html">Home</a>
+        <a href="./portfolio_about.html">About</a>
+        <a href="">Services</a>
+        <a href="./portfolio1.html">portfolio</a>
+        <a href="">Blog</a>
+        <a href="./portfolio_contact.html">Contact</a>
+    </nav>
+    <div>
+        <a href=""><i class="fa-brands fa-youtube"></i></a> 
+        <a href=""><i class="fa-brands fa-instagram"></i></a></i>
+        <a href="https://www.linkedin.com/in/kogara-kruthika-2a168926a/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></i>
+        <a href="https://github.com/kruthika-kogara/Web-Technology" target="_blank"><i class="fa-brands fa-github"></i></a></i>
+    </div>
+    <div id="col">
+        <div class="col2">
+            <img src="./images/img6.2.jpg" alt="">
+        </div>
+        <div class="col1">
+            <div class="row1">
+                <ul>
+                    <li><h3>I am </h3></li>
+                    <li><h1>KRUTHIKA KOGARA</h1></li>
+                    <li><h2>Web designer</h2></li>
+                    <li id="p1"><p>Through my journey of growth and exploration, I have honed a diverse set of abilities that I am excited to share with you. <br>My portfolio serves as a window into my professional identity, showcasing not only what I have accomplished but also the values and principles that guide my work. Each project, accomplishment, and endeavor is a testament to my dedication, creativity, and drive for excellence.</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Italianno&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(37, 42, 65);
+        }
+        .nav1{
+            border-bottom: 1px solid white;
+            display: flex;
+            height: 45px;
+            width: 100%;
+            align-items: center;
+            justify-content:end;
+            position: fixed;
+            top: 0;
+        }
+        .nav1 a{
+            text-decoration: none;
+            color:white;
+            font-size: 20px;
+            padding: 0px 30px;
+        }
+        .nav1 a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        #div1{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        .div2{
+            position: fixed;
+            border: 1px solid rgb(29, 53, 234);
+            box-shadow: 0px 0px 10px white;
+            width: 500px;
+            height: 450px;
+            border-radius: 500px;
+            padding-top: 40px;
+            text-indent: 5px;
+            line-height: 25px;
+            margin: 80px 0px 0px 80px;
+            transition: all 3s ease;
+        }
+        .div2:hover{
+            transform: rotateY(180deg);
+        }
+        h2{
+            color: rgb(9, 121, 166);
+            text-align: center;
+            /*font-family: "Italianno", cursive;*/
+            font-size: 50px;
+            text-shadow: 1px 1px rgb(241, 94, 219);
+            
+        }
+        #p1{
+            margin: 0px auto;
+            width: 400px;
+            height: 250px;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+        }
+        .div3>a{
+            padding:10px 20px;
+            text-decoration: none;
+            font-size: 20px;
+            z-index:1;
+            background-color:  rgb(37, 42, 65);
+            color: white;
+            border:1px solid white;
+            border-radius: 15px;
+            margin: 0px 60px;   
+        }
+        .div3{
+            position: fixed;
+            padding: 40px 0px 20px 160px;
+            height: 50px;
+            width: 100%;
+            margin-top: 630px;
+            
+        }
+        .div3>a:hover{
+            color: rgb(252, 34, 208);
+            background-color: rgba(87, 16, 239, 0.778);
+            box-shadow: 0px 0px 10px white;
+            border-radius: 15px;
+        }
+        img{
+            width: 400px;
+            height: 450px;
+            margin-top: 120px;
+            margin-left: 800px;
+            border-radius: 250px;
+            box-shadow: 0px 0px 100px rgba(134, 111, 184, 0.778);
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="nav1">
+        <a href="./portfolio1.html" target="_self">Home</a>
+        <a href="./portfolio_about.html" target="_self">About</a>
+        <a href="">Services</a>
+        <a href="./portfolio1.html">portfolio</a>
+        <a href="">Blog</a>
+        <a href="./portfolio_contact.html">Contact</a>
+    </nav>
+    <div id="div1">
+        <div class="div2">
+            <h2>About Me</h2>
+            <p id="p1">Hello! I'm Kruthika Kogara, persuing B.Tech CSE Cybersecurity student in Sree Vidyanikethan Engineering College.  I find joy in playing throwball and tennikoit, and my free time is filled with the beats of various music. Skilled in HTML, CSS, Javascript and basic Python, I've honed my skills through hands-on experiences in internships at Ilander Technologies pvt ltd. Excited to share my journey and showcase my abilities in this portfolio.</p>
+        </div>
+        <img src="./images/myself.jpg" alt="">
+        <div class="div3">
+            <a href="./portfolio_education.html">Education</a>
+            <a href="/portfolio_Skills.html">Skills</a> 
+            <a href="./portfolio_internships.html">Internships</a>
+            <a href="./portfolio_certificates.html">Certificates</a>
+            <a href="./portfolio_others.html">Others</a>
+        </div>
+    </div>
+   
+</body>
+</html>
